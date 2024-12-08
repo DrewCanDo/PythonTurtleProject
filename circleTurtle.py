@@ -48,4 +48,53 @@ side of the triangle 100 pixels. """
 # how to change background color
 bgcolor('yellow')
 
+#how to move and not draw a line
+""" circle(50)
+penup()
+forward(100)
+pendown()
+circle(50) """
+
+#draw a house
+
+
+color('lightblue')
+begin_fill()
+#walls
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
+end_fill()
+forward(100)
+left(90)
+forward(100)
+
+
+
+color('brown')
+begin_fill()
+#roof
+left(30)
+forward(100)
+left(120)
+forward(100)
+end_fill()
+
+penup()
+left(30)
+forward(40)
+left(90)
+forward(50)
+pendown()
+
+color('white')
+begin_fill()
+circle(10)
+end_fill()
+
 done() 
