@@ -27,6 +27,7 @@ def inflate_balloon ():
 
 draw_balloon()
 
+#Screen().onkey() screen is required for onkey and listen using trinket.
 onkey(inflate_balloon, "Up")
 listen()
 
